@@ -1,0 +1,18 @@
+Run this code with python3, to install and run use the following commands:
+pip3 install -r requirements.txt
+python3 zero_binary_search.py
+
+
+Note: change the value stored inside [processing].[input] in the config.ini file in order
+to test different scenarios
+
+
+At the end you will get a print in the console telling:
+
+Binary conversion: 10010000100001110000000
+The largest number of consecutive 0s surrounded by 1s:  4
+
+
+The logic is pretty basic, since every binary number by default start with 1, the only value
+that needs to be checked is the last one, just to be sure that the biggest sequence of zeroes
+that reside in the end is also surrounded by 1s.
